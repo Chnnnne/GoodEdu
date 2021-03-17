@@ -22,10 +22,12 @@
 2）教师端的功能有查看个人基本信息、课程评分查看、所有学生成绩查看，学生成绩个性化分析、录入分数功能等等。
 3）管理端可以及时查看所有学生的订书情况，从而快速的采取一些行动。
 ![image](https://user-images.githubusercontent.com/63045769/111411563-bf640c00-8715-11eb-9b6e-8f22b463083e.png)
+![image](https://user-images.githubusercontent.com/63045769/111413061-80838580-8718-11eb-8961-290b14735485.png)
 
 
 （四）精美的前端组件
 采用Twitter提供的BootStrap框架制作了精美的前端组件如轮播图、导航条、表单、表格、按钮、图片等等一些交互组件，让整个系统的前端十分简约、美观。
+![image](https://user-images.githubusercontent.com/63045769/111413089-942eec00-8718-11eb-864e-a7f462586aa9.png)
 
 
 （五）成熟的数据库访问技术
@@ -33,10 +35,13 @@
 
 （六）整体架构清晰
 采用成熟的MVC架构设计模式，Model（模型）接收视图发出的请求，并返回处理结果，Model（模型） 表现为业务对象后端系统，用于从数据库系统中存取信息，一个 Model（模型）能 为多个视图提供数据，所以减少了代码的重复性。View（视图）代表用户交互界 面，能为应用程序处理很多不同的视图，较少含有业务逻辑，MVC 将输入数据传 递给 Model 组件，并显示处理结果。Controller（控制器）接收用户通过视图发出 的请求，Controller（控制器）决定调用哪个模型构件去处理请求，连接模型与视图，并决定哪个视图来展示结果。
+![image](https://user-images.githubusercontent.com/63045769/111412942-474b1580-8718-11eb-9664-1616233f9313.png)
 
  
 （七）成熟的前端展示技术
 采用JSP+Servlet+EL表达式+JSTL标签技术，再配合上JDBCTemplate封装的JavaBean、List等对象，让前端展示十分简洁、高效。此外还用了Echarts技术，让数据以图表的方式展示出来如下所示，十分直观。
 
+![image](https://user-images.githubusercontent.com/63045769/111412877-2c78a100-8718-11eb-8df8-4ed7fe3c9ec2.png)
+![image](https://user-images.githubusercontent.com/63045769/111412895-31d5eb80-8718-11eb-9739-331482bb47f5.png)
 
 
