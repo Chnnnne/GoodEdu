@@ -1,5 +1,7 @@
 # 教务管理系统
-**基于JavaWeb技术**
+
+## 基于JavaWeb技术
+
 1. 主要有学生端、教师端
 2. MVC框架
 3. 基本功能有成绩查询、选课、教材订购、以及录入成绩等等
@@ -7,7 +9,7 @@
 5. 初次尝试，代码有部分冗余，还有很多可有优化的地方，欢迎交流qq：952668425
 
 
-**以下是该系统的特点**
+## 以下是该系统的特点
 
 （一）功能完备、界面精美的登录界面
   采用JS、CSS、Html技术，登录界面的前端动画十分美观，而且设置有验证码验证功能（利用Servlet、Session技术实现），还有十分钟内记住登录状态（利用Cookie技术实现），此外还有注册功能，方便游客访问该系统。
@@ -27,14 +29,14 @@
 3）管理端可以及时查看所有学生的订书情况，从而快速的采取一些行动。
 
 ![image](https://user-images.githubusercontent.com/63045769/111411563-bf640c00-8715-11eb-9b6e-8f22b463083e.png)
-![image](https://user-images.githubusercontent.com/63045769/111413061-80838580-8718-11eb-8961-290b14735485.png style="zoom:67%;")
+![image](https://user-images.githubusercontent.com/63045769/111413061-80838580-8718-11eb-8961-290b14735485.png)
 
 
 
 
 （四）精美的前端组件
 采用Twitter提供的BootStrap框架制作了精美的前端组件如轮播图、导航条、表单、表格、按钮、图片等等一些交互组件，让整个系统的前端十分简约、美观。
-![image](https://user-images.githubusercontent.com/63045769/111413089-942eec00-8718-11eb-864e-a7f462586aa9.png style="zoom:70%;")
+![image](https://user-images.githubusercontent.com/63045769/111413089-942eec00-8718-11eb-864e-a7f462586aa9.png)
 
 
 
@@ -50,11 +52,9 @@
 
 
 
- 
+
 （七）成熟的前端展示技术
 采用JSP+Servlet+EL表达式+JSTL标签技术，再配合上JDBCTemplate封装的JavaBean、List等对象，让前端展示十分简洁、高效。此外还用了Echarts技术，让数据以图表的方式展示出来如下所示，十分直观。
 
 ![image](https://user-images.githubusercontent.com/63045769/111412877-2c78a100-8718-11eb-8df8-4ed7fe3c9ec2.png)
 ![image](https://user-images.githubusercontent.com/63045769/111412895-31d5eb80-8718-11eb-9739-331482bb47f5.png)
-
-
